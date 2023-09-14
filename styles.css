@@ -1,0 +1,259 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    background-color: rgb(199, 203, 207);
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    width: 1000px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#nav {
+    background-color: #0ea5e9;
+    height: 650px;
+}
+
+#nav #dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 26px 0;
+}
+
+#nav #dashboard h3 {
+    font-size: 20px;
+}
+
+#nav li {
+    list-style-type: none;
+    padding: 7px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#nav li:hover {
+   color: rgb(43, 42, 42);
+}
+
+#nav li svg {
+    margin-right: 10px;
+}
+
+#nav #settings {
+    margin-top: 20px;
+}
+
+
+#main {
+    background-color: white;
+    box-shadow: 2px 2px 4px gray;
+    padding-left: 20px;
+    height: 115px;
+}
+
+#main #container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main #container1 #search-box {
+    margin-top: 20px;
+}
+
+#main #container1 #search-box i {
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+#main #container1 input {
+    width: 400px;
+    height: 19px;
+    margin-bottom: 20px;
+    background-color: #eaf1f8;
+    border: none;
+    border-radius: 20px;
+}
+
+#main #container1 #notification {
+    margin-right: 20px;
+    padding-top: 18px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main #container1 img {
+    width: 27px;
+    padding: 0 10px;
+    border-radius: 50%;
+}
+
+#main #container1 p {
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#main #container2 {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#main #container2 img {
+    position: absolute;
+    top: 8%;
+    width: 50px;
+    border-radius: 50%;
+}
+
+#main #container2 small {
+    font-weight: bold;
+    margin-left: 54px;
+}
+
+#main #container3 h5 {
+    display: inline;
+    margin-left: 54px;
+    margin-top: 0;
+    margin-right: 230px;
+    padding-top: 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#main #container3 button {
+    background-color: #0ea5e9;
+    color: white;
+    font-size: 12px;
+    margin-right: 30px;
+    padding: 7px 17px;
+    border-radius: 13px;
+    border: none;
+}
+
+#main h2 {
+    margin-top: 17px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 900;
+}
+
+#main section {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#main section #grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 15px 0;
+}
+
+#main section #grid-container article {
+    background-color: white;
+    box-shadow: 2px 2px 4px gray;
+    width: 230px;
+    height: 120px;
+    padding: 16px 10px;
+    border-left: 5px solid #fbbf24;
+    border-radius: 7px;
+}
+
+#main section #grid-container article div {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#main section #grid-container article div svg {
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+#main section #grid-container article p {
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#main section #grid-container article small {
+    font-size: 10px;
+}
+
+#main section #grid-container2 h2 {
+    margin-top: 0;
+}
+
+#main section #grid-container2 #announcements {
+    background-color: white;
+    width: 170px;
+    height: 230px;
+    padding: 0 12px;
+    padding-top: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+#main section #grid-container2 #announcements p {
+    margin-top: 15px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+#main section #grid-container2 #announcements small {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+hr {
+    height: 1px;
+    margin-top: 10px;
+    border: none;
+    background-color: #d5d6d8;
+}
+
+#main section #grid-container2 #trending {
+    background-color: white;
+    width: 170px;
+    height: 150px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+#main section #grid-container2 #trending div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+#main section #grid-container2 #trending img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+#main section #grid-container2 #trending p {
+    font-size: 12px;
+    font-weight: bold;
+}
